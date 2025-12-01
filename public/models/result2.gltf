@@ -1,0 +1,141 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+  },
+  "extensionsUsed": [
+    "KHR_materials_volume",
+    "FB_ngon_encoding"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 675462,
+      "type": "VEC3",
+      "max": [
+        30.825000762939453,
+        48.0,
+        15.501999855041504
+      ],
+      "min": [
+        -29.176000595092773,
+        0.0,
+        -15.501999855041504
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 675462,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 675462,
+      "type": "SCALAR",
+      "max": [
+        675461
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 18912936,
+      "uri": "result.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 8105544,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8105544,
+      "byteLength": 8105544,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16211088,
+      "byteLength": 2701848,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "Mat\u00e9riau",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.1,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true
+    },
+    {
+      "name": "material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.6,
+          0.6,
+          1.0
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "3DBenchy",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": 0,
+          "indices": 2,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "3DBenchy",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0
+}
