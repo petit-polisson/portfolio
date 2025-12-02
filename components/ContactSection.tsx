@@ -9,18 +9,18 @@ export default function ContactSection() {
       <SectionOverlay 
         src="/gif/overlay.gif" 
         alt="Décoration"
-        top="3850px"
-        left="-900px"
-        scale={1.4}
-        rotate={-30}
+        top="2000px"
+        left="-250px"
+        scale={0.5}
+        rotate={0}
         isGif={true}
       />
       <SectionOverlay 
         src="/gif/overlay1.gif" 
         alt="Décoration"
-        top="3200px"
-        right="200px"
-        scale={1.8}
+        top="1800px"
+        right="-200px"
+        scale={0.7}
         rotate={0}
         isGif={true}
       />

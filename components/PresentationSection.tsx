@@ -45,8 +45,8 @@ export default function PresentationSection() {
       <SectionOverlay 
         src="/gif/overlay.gif" 
         alt="Décoration abstraite animée"
-        top="-800px"
-        left="1550px"
+        top="-400px"
+        left="775px"
         scale={2}
         rotate={15}
         isGif={true}
@@ -54,8 +54,8 @@ export default function PresentationSection() {
       <SectionOverlay 
         src="/gif/overlay1.gif" 
         alt="Décoration abstraite animée"
-        top="900px"
-        left="-550px"
+        top="450px"
+        left="-275px"
         scale={1.4}
         rotate={0}
         isGif={true}
